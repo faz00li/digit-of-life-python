@@ -1,4 +1,5 @@
-from anagram import isAnagram
+from digit_of_life import getInput, digitOfLife
 
-print(isAnagram("bard", "brab"))
-print(isAnagram("b a r d", "brad"))
+d_sum = getInput()
+digit_of_life = digitOfLife(d_sum)
+print("Main -> Digit of Life: ", digit_of_life)

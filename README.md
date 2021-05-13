@@ -1,1 +1,1 @@
-# anagrams-in-python
+# digit-of-life-python
